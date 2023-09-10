@@ -1,4 +1,5 @@
 def average(m):
+    m.sort()
     n = len(m)
     sumi = 0
     count = 0
